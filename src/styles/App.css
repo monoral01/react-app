@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 700px;
+  color: rgb(0, 0, 0);
+}
+
+.post {
+  width: inherit;
+  display: flex;
+  padding: 40px;
+  border: 4px solid goldenrod;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
